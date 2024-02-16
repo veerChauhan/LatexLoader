@@ -1,0 +1,6 @@
+framework module Pods_LatexKatexView_Example {
+  umbrella header "Pods-LatexKatexView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

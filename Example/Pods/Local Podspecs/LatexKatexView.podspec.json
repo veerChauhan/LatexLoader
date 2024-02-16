@@ -1,0 +1,22 @@
+{
+  "name": "LatexKatexView",
+  "version": "0.1.0",
+  "summary": "A short description of LatexKatexView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Ravi Ranjan/LatexKatexView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ravi Ranjan": "ravi.ranjan@pw.live"
+  },
+  "source": {
+    "git": "https://github.com/Ravi Ranjan/LatexKatexView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "LatexKatexView/Classes/**/*"
+}

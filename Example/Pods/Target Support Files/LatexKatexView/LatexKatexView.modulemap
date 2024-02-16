@@ -1,0 +1,6 @@
+framework module LatexKatexView {
+  umbrella header "LatexKatexView-umbrella.h"
+
+  export *
+  module * { export * }
+}
