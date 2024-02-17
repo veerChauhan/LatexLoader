@@ -9,12 +9,11 @@
 /* Begin PBXBuildFile section */
 		44BA9065AA53370B5FB6F60C /* Pods_LatexKatexView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9C201E194BB917B72D9EEFE /* Pods_LatexKatexView_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		65FD8D5A9AC0FE7494CD0FB7 /* Pods_LatexKatexView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326E78E78C12E3332B2AF243 /* Pods_LatexKatexView_Tests.framework */; };
+		FA7392212B80BB5B0019401C /* ExampleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA73921F2B80BB5B0019401C /* ExampleListViewController.swift */; };
+		FA7392222B80BB5B0019401C /* ExampleListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7392202B80BB5B0019401C /* ExampleListViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,25 +27,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		242B384CF44F7ABF97903C75 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		242B384CF44F7ABF97903C75 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		30358D5225B9088A03F8C1B3 /* Pods-LatexKatexView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LatexKatexView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LatexKatexView_Tests/Pods-LatexKatexView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		326E78E78C12E3332B2AF243 /* Pods_LatexKatexView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LatexKatexView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		375932C25E641F078F6D5F55 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		375932C25E641F078F6D5F55 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* LatexKatexView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LatexKatexView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* LatexKatexView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LatexKatexView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7EB453278E4604DB66644AEF /* Pods-LatexKatexView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LatexKatexView_Tests.release.xcconfig"; path = "Target Support Files/Pods-LatexKatexView_Tests/Pods-LatexKatexView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B9C201E194BB917B72D9EEFE /* Pods_LatexKatexView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LatexKatexView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C780EC575BA3D233387FA4A3 /* Pods-LatexKatexView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LatexKatexView_Example.debug.xcconfig"; path = "Target Support Files/Pods-LatexKatexView_Example/Pods-LatexKatexView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DF240C25108B82722B1B3771 /* Pods-LatexKatexView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LatexKatexView_Example.release.xcconfig"; path = "Target Support Files/Pods-LatexKatexView_Example/Pods-LatexKatexView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F4EED78B2F2434FE2ABA8A5C /* LatexKatexView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LatexKatexView.podspec; path = ../LatexKatexView.podspec; sourceTree = "<group>"; };
+		F4EED78B2F2434FE2ABA8A5C /* LatexKatexView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LatexKatexView.podspec; path = ../LatexKatexView.podspec; sourceTree = "<group>"; };
+		FA73921F2B80BB5B0019401C /* ExampleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleListViewController.swift; sourceTree = "<group>"; };
+		FA7392202B80BB5B0019401C /* ExampleListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExampleListViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +75,6 @@
 				30358D5225B9088A03F8C1B3 /* Pods-LatexKatexView_Tests.debug.xcconfig */,
 				7EB453278E4604DB66644AEF /* Pods-LatexKatexView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -105,9 +102,8 @@
 		607FACD21AFB9204008FA782 /* Example for LatexKatexView */ = {
 			isa = PBXGroup;
 			children = (
+				FA73921B2B80BB220019401C /* Feature */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
@@ -127,7 +123,6 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -160,6 +155,39 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FA73921B2B80BB220019401C /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				FA73921C2B80BB2B0019401C /* ExampleFeature */,
+			);
+			name = Feature;
+			sourceTree = "<group>";
+		};
+		FA73921C2B80BB2B0019401C /* ExampleFeature */ = {
+			isa = PBXGroup;
+			children = (
+				FA73921E2B80BB3F0019401C /* Main */,
+				FA73921D2B80BB380019401C /* Example */,
+			);
+			name = ExampleFeature;
+			sourceTree = "<group>";
+		};
+		FA73921D2B80BB380019401C /* Example */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Example;
+			sourceTree = "<group>";
+		};
+		FA73921E2B80BB3F0019401C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FA73921F2B80BB5B0019401C /* ExampleListViewController.swift */,
+				FA7392202B80BB5B0019401C /* ExampleListViewController.xib */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -190,7 +218,6 @@
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				18D9394446E5FF77523D9C5F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -228,6 +255,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -247,8 +275,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				FA7392222B80BB5B0019401C /* ExampleListViewController.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,31 +291,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		18D9394446E5FF77523D9C5F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LatexKatexView_Tests/Pods-LatexKatexView_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
-				"${BUILT_PRODUCTS_DIR}/Nimble-Snapshots/Nimble_Snapshots.framework",
-				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
-				"${BUILT_PRODUCTS_DIR}/iOSSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble_Snapshots.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LatexKatexView_Tests/Pods-LatexKatexView_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		5056ECD44BD81E400AF0ADCE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -357,8 +360,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				FA7392212B80BB5B0019401C /* ExampleListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +369,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,14 +383,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
