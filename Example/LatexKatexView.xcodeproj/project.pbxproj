@@ -14,6 +14,9 @@
 		65FD8D5A9AC0FE7494CD0FB7 /* Pods_LatexKatexView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 326E78E78C12E3332B2AF243 /* Pods_LatexKatexView_Tests.framework */; };
 		FA7392212B80BB5B0019401C /* ExampleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA73921F2B80BB5B0019401C /* ExampleListViewController.swift */; };
 		FA7392222B80BB5B0019401C /* ExampleListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7392202B80BB5B0019401C /* ExampleListViewController.xib */; };
+		FA7392242B80BCFE0019401C /* ExampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7392232B80BCFE0019401C /* ExampleModel.swift */; };
+		FA7392292B80BD950019401C /* ExampleOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7392272B80BD950019401C /* ExampleOptionCell.swift */; };
+		FA73922A2B80BD950019401C /* ExampleOptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7392282B80BD950019401C /* ExampleOptionCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		F4EED78B2F2434FE2ABA8A5C /* LatexKatexView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LatexKatexView.podspec; path = ../LatexKatexView.podspec; sourceTree = "<group>"; };
 		FA73921F2B80BB5B0019401C /* ExampleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleListViewController.swift; sourceTree = "<group>"; };
 		FA7392202B80BB5B0019401C /* ExampleListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExampleListViewController.xib; sourceTree = "<group>"; };
+		FA7392232B80BCFE0019401C /* ExampleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleModel.swift; sourceTree = "<group>"; };
+		FA7392272B80BD950019401C /* ExampleOptionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleOptionCell.swift; sourceTree = "<group>"; };
+		FA7392282B80BD950019401C /* ExampleOptionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExampleOptionCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +181,7 @@
 		FA73921D2B80BB380019401C /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				FA7392232B80BCFE0019401C /* ExampleModel.swift */,
 			);
 			name = Example;
 			sourceTree = "<group>";
@@ -182,10 +189,20 @@
 		FA73921E2B80BB3F0019401C /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				FA7392262B80BD950019401C /* ExampleOptionCell */,
 				FA73921F2B80BB5B0019401C /* ExampleListViewController.swift */,
 				FA7392202B80BB5B0019401C /* ExampleListViewController.xib */,
 			);
 			name = Main;
+			sourceTree = "<group>";
+		};
+		FA7392262B80BD950019401C /* ExampleOptionCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA7392272B80BD950019401C /* ExampleOptionCell.swift */,
+				FA7392282B80BD950019401C /* ExampleOptionCell.xib */,
+			);
+			path = ExampleOptionCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +295,7 @@
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				FA7392222B80BB5B0019401C /* ExampleListViewController.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				FA73922A2B80BD950019401C /* ExampleOptionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +380,8 @@
 			files = (
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				FA7392212B80BB5B0019401C /* ExampleListViewController.swift in Sources */,
+				FA7392242B80BCFE0019401C /* ExampleModel.swift in Sources */,
+				FA7392292B80BD950019401C /* ExampleOptionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
